@@ -10,3 +10,80 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+# Ignore Visual Studio specific files
+.vs/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific settings
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore Rider and JetBrains IDE files
+.idea/
+*.sln.iml
+
+# Ignore compiled binaries
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.map
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Ignore logs and temporary files
+*.log
+*.tlog
+*.csproj.user
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore .NET Core specific files
+out/
+app.publish/
+BundleArtifacts/
+
+# Ignore test results
+TestResults/
+.trx
+*.coverage
+*.coveragexml
+
+# Ignore ASP.NET Core stuff
+wwwroot/
+node_modules/
+.env
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore JetBrains Rider files
+.idea/
+*.dotCover
+*.sln.DotSettings.user
+
